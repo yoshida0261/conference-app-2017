@@ -16,7 +16,6 @@ buildscript {
 
     configurations.classpath.exclude group: 'com.android.tools.external.lombok'
 }
-
 allprojects {
     repositories {
         jcenter()
@@ -25,4 +24,8 @@ allprojects {
         maven { url 'http://dl.bintray.com/ngsw-taro/maven' }
         maven { url 'https://jitpack.io' }
     }
+}
+
+
+dependencies {
 }

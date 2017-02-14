@@ -318,6 +318,10 @@ dependencyUpdates.resolutionStrategy = {
         }
     }
 }
+android {
+    compileSdkVersion 25
+    buildToolsVersion '25.0.2'
+}
 
 // MUST BE AT THE BOTTOM
 apply plugin: 'com.google.gms.google-services'
